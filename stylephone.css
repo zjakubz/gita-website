@@ -76,75 +76,113 @@ body{
 
 /*hero end*/
 
-.section-one{
-    padding: 1rem 1.5rem;
-    background: white;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
-}
-.section-one h1{
-    text-align: center;
-    font-size: 1.5rem;
-    letter-spacing: 0.2rem;
-}
-
-.part-one {
-    display: flex;
-    align-items: flex-start;
-    padding-top: 1rem;
-}
-.text-container h3{
-    font-size: 1rem;
-    padding-bottom: 1rem;
-    letter-spacing: 0.1rem;
-}
-.text-container p{
-    font-size: 0.8rem;
-    letter-spacing: 0.03rem;
-}
-
-.part-one .text-container {
-    margin-right: 0rem; 
-}
-
-.part-two {
-    display: block; 
-    padding-top: 1rem;
-}
-
-.part-two .text-container-2 {
-    text-align: center; 
-    margin-left: 0; 
-}
-
-.part-two img {
-    display: block; 
-    margin: 2rem 0rem; 
-    max-width: 100%; 
-    height: auto;
-    border-radius: 0.2rem;
-    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.4);
-    transition: 0.3s ease-in-out;
-}
-
-.part-two img:hover {
-    transform: scale(1.1);
-    box-shadow: 4px 4px 35px rgba(0, 0, 0, 0.6);
-}
-
-.text-container-2 h3 {
-    font-size: 1rem;
-    padding-bottom: 1rem;
-    letter-spacing: 0.1rem;
-}
-
-.text-container-2 p {
-    font-size: 0.8rem;
-    letter-spacing: 0.03rem;
-}
-
-.part-two h3, .part-two p {
+/*section-1 start */
+section {
     margin: 0;
+    height: 100vh;
+    overflow: hidden;
+    background: white;
+    display: grid;
+    place-items: center; 
+   color: white;
 }
+
+section {
+    --childs: 5;
+    --gap: 10px;
+    background: white;
+    border: 10px solid;
+    width: min(80%, 800px);
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--gap);
+}
+
+.box {
+    width: calc((100% / var(--childs)));
+    box-sizing: border-box;
+    height: min(30vmin, 250px);
+    background-color: white;
+    cursor: pointer;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition: width 300ms 50ms ease-in-out;
+}
+
+.box:hover {
+    width: calc((100% / (var(--childs) - 2)));
+}
+
+section:has(.box:hover) .box:not(:hover) {
+    width: calc((100% / (var(--childs) + 1)));
+}
+
+.box-1 {
+    background-image: url("https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4xBy25QhsXKnSDTBvupM7k/46fc453dc3f9434167601fdfe1ed9a22/meta-image-general.jpg");
+}
+
+.box-2 {
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/975/453/226/counter-strike-cs-go-wallpaper-preview.jpg");
+}
+
+.box-3 {
+    background-image: url("https://images.unsplash.com/photo-1630481331483-336ed0bac999?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzV8fHhib3glMjBjb250cm9sbGVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60");
+}
+
+.box-4 {
+    background-image: url("https://cdn.dribbble.com/users/2976379/screenshots/5751717/battlefield_v.jpg");
+}
+
+.box-5 {
+    background-image: url("https://a-static.besthdwallpaper.com/tom-clancy-s-ghost-recon-wildlands-wallpaper-2800x2100-2655_28.jpg");
+}
+
+
+
+@media (max-width: 480px) {
+    .box {
+        width: calc(100% - var(--gap));
+        height: min(50vmin, 150px);
+    }
+
+    .box:hover {
+        width: calc(100% - var(--gap));
+    }
+
+    section:has(.box:hover) .box:not(:hover) {
+        width: calc(100% - var(--gap));
+    }
+}
+
+/*section-1 end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
