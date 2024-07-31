@@ -1,188 +1,121 @@
-@media (max-width: 767px) {
+@media (max-width: 700px) {
     
-body{
-    height: 300vh;
-}
-.img-container {
-    width: 100%; 
-    height: 45rem; 
-    background-image: url('https://i.postimg.cc/FHBrmMMZ/pexels-ana-tinca-264849644-13314210.jpg'); 
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat; 
-}
-.hero{
-    font-family: 'Times New Roman', Times, serif;
-}
-.hero a{
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-}
-.hero h2{
-    padding-top: 3rem;
-    font-size: 1.5rem;
-    font-weight: 400;
-    transition: 0.4s ease-in;
-    letter-spacing: 0.3rem;
-}
-
-.nav-bar ul {
-    list-style-type: none;
-    display: block; 
-    text-align: center; 
-    margin: 0; 
-    padding: 0; 
-}
-
-.nav-bar ul li {
-    margin: 10px 0; 
-}
-
-.nav-bar ul li a {
-    display: block; 
-    font-size: 1rem;
-    letter-spacing: 0.3rem;
-    padding: 0rem 1rem;
-    transition: 0.25s ease-in-out;
-}
-
-.nav-bar ul li a:hover {
-    background-color: rgba(229, 229, 229, 0.1);
-    border-radius: 0.4rem;
-    letter-spacing: 0.2rem;
-}
-
- 
-.social-buttons {
-    font-size: 0.5rem;
-    font-weight: 100;
-    color: white;
-    letter-spacing: 0.4rem;
-    position: absolute; 
-    bottom: 1.5rem;
-    left: 50%;
-    transform: translateX(-50%); 
-}
-
-.social-buttons a i{
-    font-size: 1rem;
-    transition: 0.2s ease;
-}
-.social-buttons a i:hover{
-    font-size: 1.5rem;
-}
-
-
-
-/*hero end*/
-
-/*section-1 start */
-section {
-    margin: 0;
-    height: 100vh;
-    overflow: hidden;
-    background: white;
-    display: grid;
-    place-items: center; 
-   color: white;
-}
-
-section {
-    --childs: 5;
-    --gap: 10px;
-    background: white;
-    border: 10px solid;
-    width: min(80%, 800px);
-    display: flex;
-    flex-wrap: wrap;
-    gap: var(--gap);
-}
-
-.box {
-    width: calc((100% / var(--childs)));
-    box-sizing: border-box;
-    height: min(30vmin, 250px);
-    background-color: white;
-    cursor: pointer;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    transition: width 300ms 50ms ease-in-out;
-}
-
-.box:hover {
-    width: calc((100% / (var(--childs) - 2)));
-}
-
-section:has(.box:hover) .box:not(:hover) {
-    width: calc((100% / (var(--childs) + 1)));
-}
-
-.box-1 {
-    background-image: url("https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4xBy25QhsXKnSDTBvupM7k/46fc453dc3f9434167601fdfe1ed9a22/meta-image-general.jpg");
-}
-
-.box-2 {
-    background-image: url("https://c4.wallpaperflare.com/wallpaper/975/453/226/counter-strike-cs-go-wallpaper-preview.jpg");
-}
-
-.box-3 {
-    background-image: url("https://images.unsplash.com/photo-1630481331483-336ed0bac999?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzV8fHhib3glMjBjb250cm9sbGVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60");
-}
-
-.box-4 {
-    background-image: url("https://cdn.dribbble.com/users/2976379/screenshots/5751717/battlefield_v.jpg");
-}
-
-.box-5 {
-    background-image: url("https://a-static.besthdwallpaper.com/tom-clancy-s-ghost-recon-wildlands-wallpaper-2800x2100-2655_28.jpg");
-}
-
-
-
-@media (max-width: 480px) {
-    .box {
-        width: calc(100% - var(--gap));
-        height: min(50vmin, 150px);
+    body{
+        height: 300vh;
+        background-color: white;
     }
-
-    .box:hover {
-        width: calc(100% - var(--gap));
+    .img-container {
+        width: 100%;  
+        height: 100vh; 
+        background-image: url('https://i.postimg.cc/FHBrmMMZ/pexels-ana-tinca-264849644-13314210.jpg'); 
+        background-size: cover; 
+        background-position: center; 
+        background-repeat: no-repeat; 
     }
-
-    section:has(.box:hover) .box:not(:hover) {
-        width: calc(100% - var(--gap));
+     
+    .hero{
+        font-family: 'Times New Roman', Times, serif;
     }
-}
+    .hero a{
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+    }
+    .hero h2{
+        padding-top: 3rem;
+        font-size: 1.5rem;
+        font-weight: 400;
+        transition: 0.4s ease-in;
+        letter-spacing: 0.3rem;
+    }
+    
+    .nav-bar ul {
+        list-style-type: none;
+        display: block; 
+        text-align: center; 
+        margin: 0; 
+        padding: 0; 
+    }
+    
+    .nav-bar ul li {
+        margin: 10px 0; 
+    }
+    
+    .nav-bar ul li a {
+        display: block; 
+        font-size: 1rem;
+        letter-spacing: 0.3rem;
+        padding: 0rem 1rem;
+        transition: 0.25s ease-in-out;
+    }
+    
+    .nav-bar ul li a:hover {
+        background-color: rgba(229, 229, 229, 0.1);
+        border-radius: 0.4rem;
+        letter-spacing: 0.2rem;
+    }
+    
+     
+    .social-buttons {
+        font-size: 0.5rem;
+        font-weight: 100;
+        color: white;
+        letter-spacing: 0.4rem;
+        position: absolute; 
+        bottom: 1.5rem;
+        left: 50%;
+        transform: translateX(-50%); 
+    }
+    
+    .social-buttons a i{
+        font-size: 1rem;
+        transition: 0.2s ease;
+    }
+    .social-buttons a i:hover{
+        font-size: 1.5rem;
+    }
+    
+    
+    
+    
+    
+    /*hero end*/
 
-/*section-1 end*/
+    /* side page hero*/
+    
+    /*section-1 start */ 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
+    .section-1{
+        background-color: white;
+    }
+    
+    /*section-1 end*/
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    }
