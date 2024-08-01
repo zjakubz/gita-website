@@ -1,6 +1,7 @@
 /*footer start*/
 .footer {
     display: flex;
+    margin-top: 10rem;
     flex-wrap: wrap;
     padding: 30px 30px 20px 30px;
     color: black;
@@ -30,6 +31,9 @@
   
   .footer a {
     text-decoration: none;
+  }
+  .footer a:hover{
+    text-decoration: underline;
   }
   
   .footer__nav {

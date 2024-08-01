@@ -1,17 +1,15 @@
 
-
-/* section two start */
-
-
-.section-two{
-    padding: 10rem 25rem;
+.hero-text a {
+    text-decoration: none;
+    font-size: 2rem;
 }
 
-.section-two h1{
-    
+.hero-text h1{
+    padding-top: 5rem;
     font-size: 3rem;
-    letter-spacing: 0.2rem;
+    
 }
-
-
+.hero-text p{
+    padding-top: 2rem;
+}
 

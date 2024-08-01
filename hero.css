@@ -33,7 +33,7 @@ body{
 }
 
 
-.btn-arrow {
+.btn-arrow  {
     bottom: 10px; 
     left: 10px; 
     background-color: #e4e4e4;
@@ -58,7 +58,7 @@ body{
         padding: 0px;
         margin: 0px;
         font-family: 'Times New Roman', Times, serif;
-        color: grey;
+        color: black;
     }
     
     body{
@@ -79,34 +79,20 @@ body{
         letter-spacing: 0.2rem;
         font-weight: 400;
         font-size: 2.5rem;
+        padding: 10rem 1.5rem 2rem 1.5rem;
+        
     }
     .hero-text p{
         text-align: left;
-        padding: 1rem 1.5rem;
-        font-size: 1rem;
-        letter-spacing: 0.05rem;
+        padding: 0rem 1.5rem;
+        font-size: 1;
+        letter-spacing: 0.02rem;
     
     }
     
     
     .btn-arrow {
-        bottom: 10px; 
-        left: 10px; 
-        background-color: #e4e4e4;
-        color: white;
-        border: none;
-        width: 50px; 
-        height: 50px; 
-        border-radius: 50%; 
-        
-        font-size: 20px; 
-        cursor: pointer;
-        transition: background-color 0.3s, transform 0.3s;
-    }
-    
-    .btn-arrow:hover {
-        background-color: #a0a0a0;
-        transform: scale(1.1);
+        display: none;
     }
     
 }
