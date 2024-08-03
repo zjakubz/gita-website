@@ -81,6 +81,8 @@
     </section>
   -->
   
+  <!-- First Section: Image on the Right -->
+  <div class="container-padding">
   <div class="container">
     <div class="text-section">
         <h1>Preferences, and what you would like to see</h1>
@@ -89,18 +91,33 @@
         <p>Tell us about your ideal trip and the kind of experience you'd like to include. We'll match you with up to two reputable, pre-qualified travel specialists who are the best for your trip and they will help you.</p>
     </div>
     <div class="image-section">
-        <img id="mainImage" src="https://i.postimg.cc/SxWnhGcL/pexels-filippo-bergamaschi-202684-2767739.jpg" alt="Underwater">
+        <img id="mainImage1" src="https://i.postimg.cc/SxWnhGcL/pexels-filippo-bergamaschi-202684-2767739.jpg" alt="Underwater">
         <div class="arrows">
-            <button onclick="previousImage()"><i class="fas fa-chevron-left"></i></button>
-            <button onclick="nextImage()"><i class="fas fa-chevron-right"></i></button>
+            <button onclick="previousImage(1)"><i class="fas fa-chevron-left"> </i></button>
+            <button onclick="nextImage(1)"><i class="fas fa-chevron-right"> </i></button>
         </div>
     </div>
 </div>
-<div class="controls">
-    <div class="button" onclick="showImage(0)"></div>
-    <div class="button active" onclick="showImage(1)"></div>
-    <div class="button" onclick="showImage(2)"></div>
 </div>
+
+
+<!-- Second Section: Image on the Left -->
+<div class="container">
+    <div class="image-section">
+        <img id="mainImage2" src="https://i.postimg.cc/yYxhs2Nm/pexels-pixelcop-1878293.jpg" alt="Underwater">
+        <div class="arrows">
+            <button onclick="previousImage(2)"><i class="fas fa-chevron-left"> </i></button>
+            <button onclick="nextImage(2)"><i class="fas fa-chevron-right"> </i></button>
+        </div>
+    </div>
+    <div class="text-section">
+        <h1>Preferences, and what you would like to see</h1>
+        <div class="line"></div>
+        <p>Get your itinerary customized to fit your needs and preferences.</p>
+        <p>Tell us about your ideal trip and the kind of experience you'd like to include. We'll match you with up to two reputable, pre-qualified travel specialists who are the best for your trip and they will help you.</p>
+    </div>
+</div>
+
 
 
 
