@@ -1,0 +1,198 @@
+@media (min-width: 700px) and (max-width: 900px){
+
+    *{
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    body{
+        height: 400vh;
+    }
+    .img-container {
+        width: 100%; 
+        height: 50rem; 
+        background-image: url('https://i.postimg.cc/FHBrmMMZ/pexels-ana-tinca-264849644-13314210.jpg'); 
+        background-size: cover; 
+        background-position: center; 
+        background-repeat: no-repeat;
+        position: relative;   
+    }
+    .hero{
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .hero a{
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+    }
+    
+    .hero h2{
+        padding: 3rem;
+        font-size: 2rem;
+        font-weight: 400;
+        transition: 0.4s ease-in;
+        letter-spacing: 0.3rem;
+    }
+    
+    .hamburger-menu, .fullscreen-menu{
+        display: none;
+    }
+    .text-nav, .nav-bar{
+        text-align: center;
+    }
+    
+    .nav-bar {
+        margin: 0 0; 
+    }
+    
+    .nav-bar ul {
+        list-style-type: none; 
+        display: flex; 
+        justify-content: center; 
+    }
+    
+    .nav-bar ul li {
+        margin: 0 1px;
+        padding: 0rem 2rem ;
+        
+    }
+    
+    .nav-bar ul li a {
+        font-size: 1.3rem;
+        letter-spacing: 0.1rem;
+        transition: 0.25s ease-in-out 
+    }
+    .nav-bar ul li a:hover{
+        background-color: rgba(229, 229, 229, 0.1);
+        padding:0.3rem;
+        border-radius: 0.4rem;
+        letter-spacing: 0.2rem;
+    }
+    
+    .social-buttons {
+        font-size: 1rem;
+        font-weight: 100;
+        color: rgb(255, 255, 255);
+        letter-spacing: 0.5rem;
+        position: absolute; 
+        bottom: 7.5rem;
+        left: 50%;
+        transform: translateX(-50%); 
+    }
+    
+    .social-buttons a i{
+        font-size: 1rem;
+        transition: 0.2s ease;
+    }
+    .social-buttons a i:hover{
+        font-size: 1.5rem;
+    }
+    
+    /*hero end*/
+    /*
+    .container{
+        display: none
+    }
+    .section-1{
+        text-align: center;
+    }
+    .section-1 p {
+        font-size: 1.3rem;
+        padding: 5rem 1rem 1rem 1rem;
+        color: gray;
+        letter-spacing: 0.1rem;
+        font-family: 'Oswald', sans-serif;
+    
+    }
+    .section-1 hr{
+        margin: 0rem 49rem;
+        height: 1px;
+        background-color: gray;
+    }
+    .section-1 h1{
+        padding: 5rem 0 5rem 0 ;
+    }
+    /*img galery start */
+    /*
+    
+    .section-box {
+      --childs: 5;
+      padding: 1rem 2rem;
+      
+      
+      display: flex;
+    
+    }
+    
+    .box {
+      width: calc((100% / var(--childs)));
+      box-sizing: border-box;
+      height: min(40vmin, 350px);
+      background-color: white;
+      cursor: pointer;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      transition: width 300ms 50ms ease-in-out;
+    }
+    l-
+    .box:hover {
+      width: calc((100% / (var(--childs) - 2)));
+    }
+    
+    .section-box:has(.box:hover) .box:not(:hover) {
+      width: calc((100% / (var(--childs) + 1)));
+    }
+    
+    .box-1 {
+      background-image: url("https://i.postimg.cc/yYxhs2Nm/pexels-pixelcop-1878293.jpg");
+    }
+    
+    .box-2 {
+      background-image: url("https://i.postimg.cc/3JzG7RVh/pexels-jplenio-1119972.jpg");
+    }
+    
+    .box-3 {
+      background-image: url("https://i.postimg.cc/SxWnhGcL/pexels-filippo-bergamaschi-202684-2767739.jpg");
+    }
+    
+    .box-4 {
+      background-image: url("https://i.postimg.cc/sD5WjyrZ/pexels-tom-li-1943126-3567218.jpg");
+    }
+    
+    .box-5 {
+      background-image: url("https://i.postimg.cc/sD5WjyrZ/pexels-tom-li-1943126-3567218.jpg");
+    }
+    */
+    /*img galery end */
+     
+    
+    /* second page */
+    .container {
+        flex-direction: column;
+        padding: 1rem;
+    }
+    .text-section {
+        padding: 2rem;
+        margin-right: 0;
+    }
+    .image-section {
+        padding: 2rem;
+    }
+    .image-section img {
+        max-width: 80%;
+        height: auto;
+        border-radius: 1rem;
+    }
+    .text-section h1 {
+        font-size: 2em;
+    }
+    .text-section p {
+        font-size: 1.1em;
+    }
+    .arrows {
+        margin-top: 0.5rem;
+    }
+    
+}
+    /*second page end*/
+ 

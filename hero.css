@@ -18,6 +18,7 @@ body{
     padding: 10rem 15rem;
     text-align: center;
 }
+
 .hero-text h1{
     text-align: center;
     letter-spacing: 0.5rem;
@@ -31,6 +32,7 @@ body{
     letter-spacing: 0.05rem;
 
 }
+
 
 
 .btn-arrow  {
@@ -74,6 +76,7 @@ body{
         padding: 1rem 1.5rem;
         text-align: left;
     }
+    
     .hero-text h1{
         text-align: left;
         letter-spacing: 0.2rem;
@@ -89,10 +92,19 @@ body{
         letter-spacing: 0.02rem;
     
     }
-    
+    .hero-text a {
+        font-size: 1.5rem;
+        text-decoration: none;
+    }
     
     .btn-arrow {
         display: none;
     }
     
+}
+/*only for hero text a*/
+@media (min-width: 700px){
+    .hero-text a {
+        display: none;
+    }
 }

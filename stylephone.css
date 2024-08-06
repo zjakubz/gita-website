@@ -89,33 +89,55 @@
     }
     
     /*section-1 end*/
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
+    /* second page */
+    .container {
+        flex-direction: column;
+        padding: 1rem;
     }
+    .text-section {
+        padding: 1rem;
+        margin-right: 0;
+    }
+    .image-section {
+        padding: 1rem;
+    }
+    .text-section h1 {
+        font-size: 2em;
+    }
+    .text-section p {
+        font-size: 0.9em;
+    }
+    .arrows {
+        margin-top: 10px;
+    }
+    
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+ 

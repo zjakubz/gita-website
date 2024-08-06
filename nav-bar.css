@@ -42,9 +42,7 @@
 .fullscreen-menu{
     display: none;
 }
-.hero-text a {
-    display: none;
-}
+
 @media (max-width: 700px) {
 
     .full-nav{
